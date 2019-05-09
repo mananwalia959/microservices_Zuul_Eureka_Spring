@@ -1,0 +1,5 @@
+package io.manan.micro.resource;
+
+public class MovieCatalogResource {
+
+}

@@ -1,0 +1,5 @@
+1557145995587	Rename type 'RatingDataResource'
+1557146330191	Rename field 'userId'
+1557210515332	Rename type 'Ratings'
+1557210547478	Rename local variable 'ratingsObject'
+1557210575118	Copy compilation unit

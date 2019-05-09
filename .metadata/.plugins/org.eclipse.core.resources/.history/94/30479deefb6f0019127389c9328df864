@@ -1,0 +1,28 @@
+package io.manan.micro.models;
+
+public class Rating {
+	private String movieId;
+	private int rating;
+	
+	public Rating(String userId, int rating) {
+		this.movieId = userId;
+		this.rating = rating;
+	}
+	public Rating() {
+	}
+	public String getUserId() {
+		return movieId;
+	}
+	public void setUserId(String userId) {
+		this.movieId = userId;
+	}
+	public int getRating() {
+		return rating;
+	}
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+
+	
+	
+}

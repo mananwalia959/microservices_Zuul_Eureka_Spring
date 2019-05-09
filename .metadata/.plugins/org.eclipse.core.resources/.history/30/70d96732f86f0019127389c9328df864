@@ -1,0 +1,21 @@
+package io.manan.micro.resource;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import io.manan.micro.models.CatalogItem;
+
+@RestController
+public class MovieCatalogResource {
+	public List<CatalogItem> getCatalog(String userId){
+		
+		return Collections.singletonList(
+				new CatalogItem("TransFormers","Test",4)
+				);
+		
+		
+	}
+}

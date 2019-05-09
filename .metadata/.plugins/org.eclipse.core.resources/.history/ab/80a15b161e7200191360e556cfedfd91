@@ -1,0 +1,6 @@
+server.port = 8765
+
+spring.application.name= zuul-service
+
+zuul.routes.movie-catalog-service = /proxy/catalog/**/
+zuul.routes.movie-info-service = /proxy/info/**/
