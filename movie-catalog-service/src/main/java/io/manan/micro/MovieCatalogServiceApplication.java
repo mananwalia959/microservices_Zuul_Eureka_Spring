@@ -17,6 +17,7 @@ public class MovieCatalogServiceApplication {
 	}
 	
 	@Bean
+	@LoadBalanced
 	public WebClient.Builder getWebClientBuilder(){
 		return WebClient.builder();
 		
